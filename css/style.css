@@ -536,11 +536,17 @@ overflow: hidden;
 .footerlist {
     display: flex;
     gap: 16px;
-
-
 }
 .iconlinklink {
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
 }
 .iconlinklink:hover {
 background-color: #31d0aa;
