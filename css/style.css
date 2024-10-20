@@ -387,6 +387,7 @@ width: 40px;
     display: flex;
     align-items: center; 
     justify-content: center; 
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .iconlink:hover {
@@ -509,4 +510,27 @@ overflow: hidden;
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    
+}
+.footerfooter {
+margin-right: 120px;
+
+}
+.texttext {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#ffffff;
+    margin-bottom: 16px;
+
+}
+.footerlist {
+    display: flex;
+    gap: 16px;
+    
 }
